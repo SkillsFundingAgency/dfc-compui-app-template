@@ -1,0 +1,40 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>DFC.App.Sample.Data</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>DFC.App.Sample.Data</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+	<Hidden>true</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="DFC.App.Sample.Data.csproj" File="DFC.App.Sample.Data.csproj" ReplaceParameters="true">
+      <Folder Name="Contracts" TargetFolderName="Contracts">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ISharedContentCacheReloadService.cs">ISharedContentCacheReloadService.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IWebhooksService.cs">IWebhooksService.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Enums" TargetFolderName="Enums">
+        <ProjectItem ReplaceParameters="true" TargetFileName="WebhookCacheOperation.cs">WebhookCacheOperation.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Helpers" TargetFolderName="Helpers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="SharedContentKeyHelper.cs">SharedContentKeyHelper.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Models" TargetFolderName="Models">
+        <Folder Name="CmsApiModels" TargetFolderName="CmsApiModels">
+          <ProjectItem ReplaceParameters="true" TargetFileName="SharedContentItemApiDataModel.cs">SharedContentItemApiDataModel.cs</ProjectItem>
+        </Folder>
+        <Folder Name="ContentModels" TargetFolderName="ContentModels">
+          <ProjectItem ReplaceParameters="true" TargetFileName="SharedContentItemModel.cs">SharedContentItemModel.cs</ProjectItem>
+        </Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
