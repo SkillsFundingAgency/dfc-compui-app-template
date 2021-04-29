@@ -1,0 +1,49 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
+  <TemplateData>
+    <Name>DFC.App.Sample</Name>
+    <Description>Comp UI Child app solution template</Description>
+    <ProjectType>CSharp</ProjectType>
+    <LanguageTag>C#</LanguageTag>
+    <PlatformTag>windows</PlatformTag>
+    <ProjectTypeTag>web</ProjectTypeTag>
+    <ProjectTypeTag>CompUI</ProjectTypeTag>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <SolutionFolder Name="_Solution Items">
+      </SolutionFolder>
+      <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+        DFC.App.Sample\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <SolutionFolder Name="Data">
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Data" CopyParameters="true">
+          DFC.App.Sample.Data\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+      </SolutionFolder>
+      <SolutionFolder Name="Services">
+        <ProjectTemplateLink ProjectName="$safeprojectname$.Services.CacheContentService" CopyParameters="true">
+          DFC.App.Sample.Services.CacheContentService\MyTemplate.vstemplate
+        </ProjectTemplateLink>
+      </SolutionFolder>
+      <SolutionFolder Name="Tests">
+        <SolutionFolder Name="Unit">
+          <SolutionFolder Name="Data">
+            <ProjectTemplateLink ProjectName="$safeprojectname$.Data.UnitTests" CopyParameters="true">
+              DFC.App.Sample.Data.UnitTests\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+          </SolutionFolder>
+          <SolutionFolder Name="Services">
+            <ProjectTemplateLink ProjectName="$safeprojectname$.Services.CacheContentService.UnitTests" CopyParameters="true">
+              DFC.App.Sample.Services.CacheContentService.UnitTests\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+          </SolutionFolder>
+          <SolutionFolder Name="Web">
+            <ProjectTemplateLink ProjectName="$safeprojectname$.UnitTests" CopyParameters="true">
+              DFC.App.Sample.UnitTests\MyTemplate.vstemplate
+            </ProjectTemplateLink>
+          </SolutionFolder>
+        </SolutionFolder>
+      </SolutionFolder>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

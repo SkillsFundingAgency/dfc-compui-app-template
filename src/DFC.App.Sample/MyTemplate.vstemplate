@@ -1,0 +1,101 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>DFC.App.Sample</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+	<ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>DFC.App.Sample</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+	<Hidden>true</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="DFC.App.Sample.csproj" File="DFC.App.Sample.csproj" ReplaceParameters="true">
+      <Folder Name="wwwroot" TargetFolderName="wwwroot">
+        <ProjectItem ReplaceParameters="true" TargetFileName="StaticRobots.txt">StaticRobots.txt</ProjectItem>
+      </Folder>
+      <Folder Name="AutoMapperProfiles" TargetFolderName="AutoMapperProfiles">
+        <ProjectItem ReplaceParameters="true" TargetFileName="SharedContentItemModelProfile.cs">SharedContentItemModelProfile.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="HealthController.cs">HealthController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.cs">HomeController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PagesController.cs">PagesController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RobotController.cs">RobotController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SitemapController.cs">SitemapController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WebhooksController.cs">WebhooksController.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Extensions" TargetFolderName="Extensions">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ControllerExtensions.cs">ControllerExtensions.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="EnumExtensions.cs">EnumExtensions.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="HttpRequestExtensions.cs">HttpRequestExtensions.cs</ProjectItem>
+      </Folder>
+      <Folder Name="HostedServices" TargetFolderName="HostedServices">
+        <ProjectItem ReplaceParameters="true" TargetFileName="SharedContentCacheReloadBackgroundService.cs">SharedContentCacheReloadBackgroundService.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Models" TargetFolderName="Models">
+        <Folder Name="Robots" TargetFolderName="Robots">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Robot.cs">Robot.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Sitemap" TargetFolderName="Sitemap">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Sitemap.cs">Sitemap.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SitemapImage.cs">SitemapImage.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SitemapLocation.cs">SitemapLocation.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="BreadcrumbItemModel.cs">BreadcrumbItemModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="EventGridEventData.cs">EventGridEventData.cs</ProjectItem>
+      </Folder>
+      <Folder Name="OpenAPIDocs" TargetFolderName="OpenAPIDocs">
+        <ProjectItem ReplaceParameters="true" TargetFileName="WebhookReceiver.txt">WebhookReceiver.txt</ProjectItem>
+      </Folder>
+      <Folder Name="ViewModels" TargetFolderName="ViewModels">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BodyViewModel.cs">BodyViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="BreadcrumbItemViewModel.cs">BreadcrumbItemViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="BreadcrumbViewModel.cs">BreadcrumbViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DocumentViewModel.cs">DocumentViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ErrorViewModel.cs">ErrorViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="HealthItemViewModel.cs">HealthItemViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="HealthViewModel.cs">HealthViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="HtmlHeadViewModel.cs">HtmlHeadViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IndexDocumentViewModel.cs">IndexDocumentViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IndexViewModel.cs">IndexViewModel.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <Folder Name="Health" TargetFolderName="Health">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Health.cshtml">Health.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="HealthView.cshtml">HealthView.cshtml</ProjectItem>
+        </Folder>
+        <Folder Name="Pages" TargetFolderName="Pages">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Body.cshtml">Body.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Document.cshtml">Document.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="HtmlHead.cshtml">HtmlHead.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>
+        </Folder>
+        <Folder Name="Shared" TargetFolderName="Shared">
+          <ProjectItem ReplaceParameters="true" TargetFileName="_AppErrorSummary.cshtml">_AppErrorSummary.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="_ErrorSummary.cshtml">_ErrorSummary.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="_GovUkFooter.cshtml">_GovUkFooter.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="_GovUkHeader.cshtml">_GovUkHeader.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="_jsEnabled.cshtml">_jsEnabled.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="_LocalCss.cshtml">_LocalCss.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="_LocalJs.cshtml">_LocalJs.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="_LocalLayout.cshtml">_LocalLayout.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Breadcrumb.cshtml">Breadcrumb.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Error.cshtml">Error.cshtml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="_ViewImports.cshtml">_ViewImports.cshtml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.json">appsettings.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings-template.json">appsettings-template.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="libman.json">libman.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Startup.cs">Startup.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

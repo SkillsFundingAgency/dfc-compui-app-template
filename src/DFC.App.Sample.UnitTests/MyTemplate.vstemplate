@@ -1,0 +1,64 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>DFC.App.Sample.UnitTests</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>DFC.App.Sample.UnitTests</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+	<Hidden>true</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="DFC.App.Sample.UnitTests.csproj" File="DFC.App.Sample.UnitTests.csproj" ReplaceParameters="true">
+      <Folder Name="ControllerTests" TargetFolderName="ControllerTests">
+        <Folder Name="HealthControllerTests" TargetFolderName="HealthControllerTests">
+          <ProjectItem ReplaceParameters="true" TargetFileName="BaseHealthControllerTests.cs">BaseHealthControllerTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="HealthControllerHealthTests.cs">HealthControllerHealthTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="HealthControllerPingTests.cs">HealthControllerPingTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="HealthControllerViewTests.cs">HealthControllerViewTests.cs</ProjectItem>
+        </Folder>
+        <Folder Name="HomeControllerTests" TargetFolderName="HomeControllerTests">
+          <ProjectItem ReplaceParameters="true" TargetFileName="BaseHomeControllerTests.cs">BaseHomeControllerTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="HomeControllerErrorTests.cs">HomeControllerErrorTests.cs</ProjectItem>
+        </Folder>
+        <Folder Name="PagesControllerTests" TargetFolderName="PagesControllerTests">
+          <ProjectItem ReplaceParameters="true" TargetFileName="BasePagesControllerTests.cs">BasePagesControllerTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerBodyFooterTests.cs">PagesControllerBodyFooterTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerBodyTests.cs">PagesControllerBodyTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerBodyTopTests.cs">PagesControllerBodyTopTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerBreadcrumbTests.cs">PagesControllerBreadcrumbTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerDocumentTests.cs">PagesControllerDocumentTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerHeroBannerTests.cs">PagesControllerHeroBannerTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerHtmlHeadTests.cs">PagesControllerHtmlHeadTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerIndexTests.cs">PagesControllerIndexTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerRouteTests.cs">PagesControllerRouteTests.cs</ProjectItem>
+        </Folder>
+        <Folder Name="RobotControllerTests" TargetFolderName="RobotControllerTests">
+          <ProjectItem ReplaceParameters="true" TargetFileName="BaseRobotControllerTests.cs">BaseRobotControllerTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="RobotControllerRobotTests.cs">RobotControllerRobotTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="RobotControllerViewTests.cs">RobotControllerViewTests.cs</ProjectItem>
+        </Folder>
+        <Folder Name="SitemapControllerTests" TargetFolderName="SitemapControllerTests">
+          <ProjectItem ReplaceParameters="true" TargetFileName="BaseSitemapControllerTests.cs">BaseSitemapControllerTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SitemapControllerSitemapTests.cs">SitemapControllerSitemapTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="SitemapControllerViewTests.cs">SitemapControllerViewTests.cs</ProjectItem>
+        </Folder>
+        <Folder Name="WebhookControllerTests" TargetFolderName="WebhookControllerTests">
+          <ProjectItem ReplaceParameters="true" TargetFileName="BaseWebhooksControllerTests.cs">BaseWebhooksControllerTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WebhooksControllerPostTests.cs">WebhooksControllerPostTests.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="ModelValidationTests" TargetFolderName="ModelValidationTests">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ModelValidator.cs">ModelValidator.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CacheReloadBackgroundServiceTests.cs">CacheReloadBackgroundServiceTests.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
