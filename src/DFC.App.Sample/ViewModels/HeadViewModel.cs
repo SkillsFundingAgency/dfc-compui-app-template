@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 namespace $safeprojectname$.ViewModels
 {
     [ExcludeFromCodeCoverage]
-    public class HtmlHeadViewModel
+    public class HeadViewModel
     {
         public string? Title { get; set; }
 

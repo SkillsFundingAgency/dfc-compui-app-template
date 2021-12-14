@@ -36,7 +36,7 @@
           <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerBreadcrumbTests.cs">PagesControllerBreadcrumbTests.cs</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerDocumentTests.cs">PagesControllerDocumentTests.cs</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerHeroBannerTests.cs">PagesControllerHeroBannerTests.cs</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerHtmlHeadTests.cs">PagesControllerHtmlHeadTests.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerHeadTests.cs">PagesControllerHeadTests.cs</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerIndexTests.cs">PagesControllerIndexTests.cs</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="PagesControllerRouteTests.cs">PagesControllerRouteTests.cs</ProjectItem>
         </Folder>
