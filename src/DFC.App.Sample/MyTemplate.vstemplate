@@ -61,7 +61,7 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="ErrorViewModel.cs">ErrorViewModel.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="HealthItemViewModel.cs">HealthItemViewModel.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="HealthViewModel.cs">HealthViewModel.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="HtmlHeadViewModel.cs">HtmlHeadViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="HeadViewModel.cs">HeadViewModel.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="IndexDocumentViewModel.cs">IndexDocumentViewModel.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="IndexViewModel.cs">IndexViewModel.cs</ProjectItem>
       </Folder>
@@ -73,7 +73,7 @@
         <Folder Name="Pages" TargetFolderName="Pages">
           <ProjectItem ReplaceParameters="true" TargetFileName="Body.cshtml">Body.cshtml</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="Document.cshtml">Document.cshtml</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="HtmlHead.cshtml">HtmlHead.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Head.cshtml">Head.cshtml</ProjectItem>
           <ProjectItem ReplaceParameters="true" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>
         </Folder>
         <Folder Name="Shared" TargetFolderName="Shared">

@@ -93,10 +93,10 @@ namespace $safeprojectname$.Controllers
         }
 
         [HttpGet]
-        [Route("pages/{article}/htmlhead")]
-        public async Task<IActionResult> HtmlHead(string article)
+        [Route("pages/{article}/head")]
+        public async Task<IActionResult> Head(string article)
         {
-            logger.LogWarning($"{nameof(HtmlHead)} has returned no content for: {article}");
+            logger.LogWarning($"{nameof(Head)} has returned no content for: {article}");
 
             return NoContent();
         }
